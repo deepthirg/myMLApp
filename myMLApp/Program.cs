@@ -2,7 +2,8 @@
 // Add input data
 var sampleData = new SentimentModel.ModelInput()
 {
-    Col0 = "This restaurant was wonderful."
+   Console.WriteLine("Please enter yourreview:");
+   string name = Console.ReadLine();
 };
 
 // Load model and predict output of sample data
